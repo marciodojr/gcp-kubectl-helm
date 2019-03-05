@@ -7,9 +7,6 @@
 
 ### How to use
 
-    --env="VERSION=1.0.1" \
-    --env="CI_COMMIT_SHA=f0a9d5eb" \
-
 ```sh
 docker run --rm -it \
     -e GCP_PROJECT_ID="your-project-id" \
