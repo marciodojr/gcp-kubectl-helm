@@ -1,6 +1,6 @@
 FROM google/cloud-sdk:alpine
 
-ARG HELM_VERSION=2.13.0
+ARG HELM_VERSION=2.14.2
 
 RUN gcloud components install kubectl \
     && curl "https://storage.googleapis.com/kubernetes-helm/helm-v${HELM_VERSION}-linux-amd64.tar.gz" \
