@@ -27,4 +27,4 @@ helm init --client-only
 
 ### How to build
 
-docker build -t gcp-kubectl-helm
+docker build -t gcp-kubectl-helm .
