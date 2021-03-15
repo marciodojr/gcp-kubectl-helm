@@ -21,7 +21,7 @@ gcloud config set project ${GCP_PROJECT_ID}
 gcloud config set compute/zone ${GCP_COMPUTE_ZONE}
 gcloud auth activate-service-account --key-file=/tmp/gcp-key.json
 gcloud container clusters get-credentials ${GCP_CLUSTER}
-helm init --client-only
+# helm init --client-only # only needed in helm v2
 # other helm commands. ex: helm ls
 ```
 
