@@ -1,6 +1,6 @@
-FROM google/cloud-sdk:331.0.0-alpine
+FROM google/cloud-sdk:392.0.0-alpine
 
-ARG HELM_VERSION=3.5.3
+ARG HELM_VERSION=3.9.0
 
 ENV HELM_PACKAGE="helm-v$HELM_VERSION-linux-amd64.tar.gz"
 
